@@ -1,0 +1,14 @@
+protected $ fillable = ["customer_id",
+"payment_method_id",
+"shipping_method_id",
+"driver_id",
+"total",
+"status",
+"payment_status" ];
+ "customer_id" => "required",
+ "payment_method_id" => "required",
+ "shipping_method_id" => "required",
+ "driver_id" => "required",
+ "total" => "required",
+ "status" => "required",
+ "payment_status" => "required"

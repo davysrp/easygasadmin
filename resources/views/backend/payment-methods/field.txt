@@ -1,0 +1,10 @@
+protected $ fillable = ["icon",
+"name",
+"tag_line",
+"status",
+"sort_order" ];
+ "icon" => "required",
+ "name" => "required",
+ "tag_line" => "required",
+ "status" => "required",
+ "sort_order" => "required"

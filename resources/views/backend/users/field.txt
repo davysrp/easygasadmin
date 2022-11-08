@@ -1,0 +1,10 @@
+protected $ fillable = ["name",
+"email",
+"email_verified_at",
+"password",
+"remember_token" ];
+ "name" => "required",
+ "email" => "required",
+ "email_verified_at" => "required",
+ "password" => "required",
+ "remember_token" => "required"
